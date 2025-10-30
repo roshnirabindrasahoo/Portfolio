@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Roshni Rabindra Sahoo — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="navbar">
+    <div class="container nav-content">
+      <a href="#" class="brand"><span class="logo"></span> Roshni Sahoo</a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certs</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div style="display:flex;gap:10px;align-items:center;">
+        <a class="cta" href="resume.pdf">Download Portfolio</a>
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle theme">🌙</button>
+      </div>
+    </div>
+  </div>
+
+  <section id="hero" class="section hero">
+    <canvas id="heroCanvas" class="canvas-bg"></canvas>
+    <div class="container hero-inner">
+      <div class="card reveal">
+        <span class="badge">MSIS @ CSULB • 5× Salesforce • Google PM • GHC 2025</span>
+        <h1>Roshni Rabindra Sahoo</h1>
+        <p class="tagline">Product & Data Professional shaping intelligent, user‑centered, and insight‑driven solutions.</p>
+        <div class="kpis">
+          <div class="kpi"><div class="num">95%</div><div class="label">On‑time delivery</div></div>
+          <div class="kpi"><div class="num">25%</div><div class="label">Faster turnaround</div></div>
+          <div class="kpi"><div class="num">30%</div><div class="label">Fewer conflicts</div></div>
+          <div class="kpi"><div class="num">20%</div><div class="label">Efficiency lift</div></div>
+        </div>
+      </div>
+      <div class="photo-wrap tilt">
+        <div class="photo-frame">
+          <img class="photo" alt="Roshni portrait" src="assets/roshni.jpg" />
+          <span class="photo-glow"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container"><div class="card reveal">
+      <h2>About</h2>
+      <p class="lead">I’m driven by how technology can simplify complexity and create meaningful impact. My passion lies in building scalable, data‑driven systems and products that connect people, processes, and strategy—helping organizations make smarter decisions and deliver lasting results.</p>
+      <p class="lead">At Accenture I delivered Salesforce CRM, automation, and analytics that boosted efficiency, collaboration, and customer engagement. Now, as a Master’s student in Information Systems at California State University, Long Beach, I’m deepening the intersection of technology, data, and product strategy.</p>
+    </div></div>
+  </section>
+
+<section id="experience" class="section">
+  <div class="container">
+    <div class="card reveal">
+      <h2>Experience</h2>
+      <div style="display:flex;flex-direction:column;gap:18px">
+
+        <div class="card" style="margin:0">
+          <h3>🏫 California State University, Long Beach — Student Assistant <span style="color:var(--muted);font-weight:600">· Nov 2024 — Present · Long Beach, CA (On-site)</span></h3>
+          <ul>
+            <li>Supported operational and systems improvements for campus facilities and maintenance teams, standardizing task tracking via system-based work orders.</li>
+            <li>Built Power BI dashboards to visualize maintenance and vendor data, providing actionable insights for planning and resource allocation.</li>
+            <li>Collaborated with technicians and staff to identify workflow gaps and implement process changes that improved scheduling efficiency.</li>
+            <li>Streamlined vendor workflows and turnaround times through clearer intake, updates, and status visibility.</li>
+          </ul>
+          <p><strong>Skills:</strong> Power BI · Data Visualization · Operational Strategy · Microsoft Excel · Python · Workflow Improvement</p>
+        </div>
+
+        <div class="card" style="margin:0">
+          <h3>🏢 Accenture (India) — Analyst <span style="color:var(--muted);font-weight:600">· Mar 2024 — Aug 2024 · Mumbai, India (On-site)</span></h3>
+          <ul>
+            <li>Delivered and enhanced Salesforce CRM solutions across Sales, Service, and Experience Cloud to improve efficiency and UX.</li>
+            <li>Developed Apex classes, triggers, and Lightning components to automate workflows and strengthen CRM adoption.</li>
+            <li>Designed reports and dashboards to provide leadership real-time visibility into KPIs and business metrics.</li>
+            <li>Supported data migrations and Agile releases; drove cross-team collaboration and smooth deployments.</li>
+          </ul>
+          <p><strong>Skills:</strong> Salesforce (Apex, Flows, LWC) · Reporting & Dashboards · Agile/Scrum · Jira · Stakeholder Communication</p>
+        </div>
+
+        <div class="card" style="margin:0">
+          <h3>🏢 Accenture (India) — Associate <span style="color:var(--muted);font-weight:600">· Sep 2022 — Feb 2024 · Mumbai, India (On-site)</span></h3>
+          <ul>
+            <li>Developed and customized Salesforce automations using Flows, Process Builder, and Apex to streamline business processes.</li>
+            <li>Created Lightning pages and dashboards that improved visibility and supported data-driven decisions.</li>
+            <li>Managed user roles, permissions, and configurations to maintain security and system integrity.</li>
+            <li>Collaborated in Agile sprints, refining requirements and ensuring quality in each release.</li>
+          </ul>
+          <p><strong>Skills:</strong> Salesforce Administration · Salesforce Development · Process Automation · User Management · Release Management</p>
+        </div>
+
+        <div class="card" style="margin:0">
+          <h3>🛍️ Minov — Internship <span style="color:var(--muted);font-weight:600">· May 2020 — Jul 2020 · Mumbai, India (Remote)</span></h3>
+          <ul>
+            <li>Designed and launched an eCommerce website using WordPress and WooCommerce, handling design to deployment.</li>
+            <li>Configured backend functionality, optimized performance, and integrated secure payment workflows.</li>
+            <li>Applied SEO and analytics best practices to improve search visibility and engagement.</li>
+            <li>Delivered technical documentation and post-launch recommendations for scalability and usability.</li>
+          </ul>
+          <p><strong>Skills:</strong> WordPress · WooCommerce · SEO · Analytics · Web Performance · Documentation</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="grid-3">
+        
+    <div class="card reveal project">
+      <h3>💼 Salesforce Project Tracker</h3>
+      <p class="meta">Salesforce · Dashboards · Automation</p>
+      <div class="readmore">
+        <button class="read-toggle">Read more</button>
+        <div class="read-body"><p>Multiple teams tracked work across sheets and disconnected tools, making it hard for leaders to see accurate status, risks, and ownership.</p><div class='section-title'>Context & Problem</div><p>Executives needed a single source of truth for delivery health, risk visibility, and cross‑team dependencies to improve planning and release confidence.</p><div class='section-title'>Approach & Tools</div><ul><li>Modeled custom objects for Projects, Epics, Risks, and Decisions with stage‑gate validation rules.</li><li>Automated roll‑ups and status snapshots using Flows and scheduled jobs; created risk heat‑maps.</li><li>Built leadership dashboards for adoption, velocity, and blockers; added guided paths to standardize updates.</li><li>Managed iterative releases in Agile sprints with change control and UAT sign‑offs.</li></ul><div class='section-title'>Outcomes & Metrics</div><ul><li>Improved planning confidence and forecast accuracy across releases.</li><li>Reduced post‑release defects via better risk tracking and review cadences.</li><li>Higher data quality and accountability with consistent ownership and KPIs.</li></ul><div class='section-title'>Skills Used</div><p>Salesforce (Apex, Flows, LWCs), Reporting & Dashboards, Agile, Stakeholder Management</p></div>
+      </div>
+    </div>
+    
+
+    <div class="card reveal project">
+      <h3>🧭 Employee Onboarding App</h3>
+      <p class="meta">Salesforce · Flows · Experience Cloud</p>
+      <div class="readmore">
+        <button class="read-toggle">Read more</button>
+        <div class="read-body"><p>New hires and managers lacked visibility into onboarding milestones, compliance tasks, and role‑specific training.</p><div class='section-title'>Context & Problem</div><p>Reduce manual HR follow‑ups and create a transparent onboarding journey with clear ownership.</p><div class='section-title'>Approach & Tools</div><ul><li>Designed role‑based checklists and SLA timers using Flows; automated reminders for overdue steps.</li><li>Experience Cloud portal for managers to track funnel, completions, and risks; added audit trail.</li><li>Integrated alerts (email/Slack) and lightweight approvals for exceptions.</li></ul><div class='section-title'>Outcomes & Metrics</div><ul><li>Faster time‑to‑productivity and higher task completion rates.</li><li>Reduced manual coordination; streamlined escalations and exception handling.</li></ul><div class='section-title'>Skills Used</div><p>Salesforce Flows, Experience Cloud, Automation, Reporting</p></div>
+      </div>
+    </div>
+    
+
+    <div class="card reveal project">
+      <h3>📨 Case Tracking Dashboard</h3>
+      <p class="meta">Service Cloud · Email‑to‑Case</p>
+      <div class="readmore">
+        <button class="read-toggle">Read more</button>
+        <div class="read-body"><p>Support teams received requests via shared mailboxes; prioritization and SLA tracking were inconsistent.</p><div class='section-title'>Context & Problem</div><p>Standardize triage and provide leadership visibility into operational health.</p><div class='section-title'>Approach & Tools</div><ul><li>Enabled Email‑to‑Case with routing rules, queues, and custom record types for priority and category.</li><li>Created SLA, backlog‑age, and trend dashboards; added macros/quick actions for faster responses.</li><li>Instituted post‑resolution tagging for root‑cause insights.</li></ul><div class='section-title'>Outcomes & Metrics</div><ul><li>Improved first‑response time and case closure throughput.</li><li>Better leadership visibility and proactive backlog management.</li></ul><div class='section-title'>Skills Used</div><p>Service Cloud, Reporting, Operations Analytics, Process Optimization</p></div>
+      </div>
+    </div>
+    
+
+    <div class="card reveal project">
+      <h3>🕒 Employee Shift Scheduling System</h3>
+      <p class="meta">Scheduling · Web App</p>
+      <div class="readmore">
+        <button class="read-toggle">Read more</button>
+        <div class="read-body"><p>Manual scheduling and ad‑hoc swaps caused coverage gaps and last‑minute conflicts.</p><div class='section-title'>Context & Problem</div><p>Create a self‑serve scheduling platform with transparency and auditability.</p><div class='section-title'>Approach & Tools</div><ul><li>Built availability capture, swap requests, and manager approvals with notifications.</li><li>Planning boards visualize coverage and conflicts; role‑based access and history audit.</li><li>Added CSV export and basic KPIs for staffing trends.</li></ul><div class='section-title'>Outcomes & Metrics</div><ul><li>Lowered manual overhead and reduced conflicts.</li><li>Increased transparency and improved staff satisfaction.</li></ul><div class='section-title'>Skills Used</div><p>Product Design, Scheduling UX, Notifications, Role‑based Access</p></div>
+      </div>
+    </div>
+    
+
+    <div class="card reveal project">
+      <h3>🏫 Campus Resource Management</h3>
+      <p class="meta">Automation · Analytics</p>
+      <div class="readmore">
+        <button class="read-toggle">Read more</button>
+        <div class="read-body"><p>Competing departments requested shared resources through inconsistent channels; decisions were opaque.</p><div class='section-title'>Context & Problem</div><p>Centralize requests, standardize workflows, and improve utilization reporting.</p><div class='section-title'>Approach & Tools</div><ul><li>Unified intake forms with approval routing and status updates; owner assignments with due dates.</li><li>Dashboards for utilization, conflicts, and lead times; configured automated alerts.</li><li>Governance cadence with CAB‑style reviews to refine rules.</li></ul><div class='section-title'>Outcomes & Metrics</div><ul><li>≈30% fewer scheduling conflicts and higher utilization.</li><li>Reusable automation patterns applicable to other resource flows.</li></ul><div class='section-title'>Skills Used</div><p>Workflow Design, Automation, KPI Dashboards, Change Management</p></div>
+      </div>
+    </div>
+    
+
+    <div class="card reveal project">
+      <h3>🧠 AI‑Powered Maintenance Chatbot (Zipcar)</h3>
+      <p class="meta">System Analysis & Design · Design Sprint</p>
+      <div class="readmore">
+        <button class="read-toggle">Read more</button>
+        <div class="read-body"><p>Maintenance reporting and updates were delayed, creating poor transparency and user frustration.</p><div class='section-title'>Context & Problem</div><p>Design a conversational interface to capture issues, automate status updates, and guide users.</p><div class='section-title'>Approach & Tools</div><ul><li>Mapped current journeys and pain points; crafted personas and scenarios.</li><li>Rapid prototyping of chatbot flows; usability tests and iterations.</li><li>Outlined integration plan with backend systems and multilingual support.</li></ul><div class='section-title'>Outcomes & Metrics</div><ul><li>Faster triage and fewer back‑and‑forth interactions.</li><li>Clearer reporting, improved user satisfaction in the proposed model.</li></ul><div class='section-title'>Skills Used</div><p>Design Thinking, Prototyping, Usability Testing, Systems Analysis</p></div>
+      </div>
+    </div>
+    
+
+    <div class="card reveal project">
+      <h3>🤖 COVID‑19 Detection Using Machine Learning</h3>
+      <p class="meta">Python · LightGBM · CRISP‑DM</p>
+      <div class="readmore">
+        <button class="read-toggle">Read more</button>
+        <div class="read-body"><p>Applied ML to classify chest X‑rays as COVID‑positive/negative using multiple model families.</p><div class='section-title'>Context & Problem</div><p>Establish a reproducible pipeline and compare model performance rigorously.</p><div class='section-title'>Approach & Tools</div><ul><li>Preprocessed data and extracted features (PCA); trained K‑Means, DT, RF, LR, SVM, XGBoost, LightGBM.</li><li>LightGBM achieved the highest accuracy (≈83.7%) with balanced precision/recall.</li><li>Documented metrics and comparisons; visualized ROC/AUC and confusion matrices.</li></ul><div class='section-title'>Outcomes & Metrics</div><ul><li>Evidence‑backed model selection and transparent trade‑offs.</li><li>Sharable experiment artifacts for future replication.</li></ul><div class='section-title'>Skills Used</div><p>Python, scikit‑learn, LightGBM, XGBoost, Model Evaluation</p></div>
+      </div>
+    </div>
+    
+
+    <div class="card reveal project">
+      <h3>✈️ Airline Operations Database Management System</h3>
+      <p class="meta">Oracle · AWS RDS · SQL · 3NF</p>
+      <div class="readmore">
+        <button class="read-toggle">Read more</button>
+        <div class="read-body"><p>Airline operations required reliable data for flight scheduling, passengers, crew, ticketing, and payments.</p><div class='section-title'>Context & Problem</div><p>Design a normalized schema with query support for core operations and reporting.</p><div class='section-title'>Approach & Tools</div><ul><li>Built conceptual → logical → physical models; applied 3NF and constraints.</li><li>Implemented queries for booking, payments, crew assignment, and reporting.</li><li>Deployed to AWS RDS for scalable access.</li></ul><div class='section-title'>Outcomes & Metrics</div><ul><li>High data integrity and reliable reporting performance.</li><li>Extensible schema for growth and new features.</li></ul><div class='section-title'>Skills Used</div><p>Database Design, SQL, Oracle, AWS RDS, ER Modeling</p></div>
+      </div>
+    </div>
+    
+
+    <div class="card reveal project">
+      <h3>💊 Smart Health Monitoring App</h3>
+      <p class="meta">Android · FlutterFlow · Firebase</p>
+      <div class="readmore">
+        <button class="read-toggle">Read more</button>
+        <div class="read-body"><p>Users needed a simple way to track BMI, daily steps, and migraine patterns on mobile.</p><div class='section-title'>Context & Problem</div><p>Deliver an accessible app with real‑time metrics and persistence.</p><div class='section-title'>Approach & Tools</div><ul><li>Implemented BMI calculator, pedometer integration, and migraine logging UI.</li><li>Stored data in Firebase/SQL; built trends and insights views.</li><li>Optimized for low‑end devices and basic accessibility.</li></ul><div class='section-title'>Outcomes & Metrics</div><ul><li>Encouraged healthy habits via quantified self tracking.</li><li>Low friction onboarding and offline‑friendly design.</li></ul><div class='section-title'>Skills Used</div><p>Android, FlutterFlow, Firebase, Data Handling</p></div>
+      </div>
+    </div>
+    
+
+    <div class="card reveal project">
+      <h3>🔐 IoT‑Based Smart Security System</h3>
+      <p class="meta">NodeMCU · Sensors · Blynk</p>
+      <div class="readmore">
+        <button class="read-toggle">Read more</button>
+        <div class="read-body"><p>Needed a low‑cost intrusion detection system with mobile alerts.</p><div class='section-title'>Context & Problem</div><p>Combine motion sensors with IoT control and notification pipeline.</p><div class='section-title'>Approach & Tools</div><ul><li>Built with NodeMCU + RCWL‑0516 motion sensors; integrated Blynk mobile app.</li><li>Triggered siren and push notifications; remote arming/disarming.</li><li>Documented wiring, thresholds, and app control flows.</li></ul><div class='section-title'>Outcomes & Metrics</div><ul><li>Practical home/office safety prototype with instant alerts.</li><li>Hands‑on experience in embedded + app communication.</li></ul><div class='section-title'>Skills Used</div><p>IoT, Embedded Systems, Sensors, Mobile Integration</p></div>
+      </div>
+    </div>
+    
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications" class="section">
+    <div class="container">
+      <h2>Certifications</h2>
+      <div class="cert-grid">
+        <div class="cert-card reveal">
+          <div class="cert-head"><img src="assets/google.svg" class="cert-logo" alt="Google"><h3>Google</h3></div>
+          <div class="cert-list">
+            <div class="cert-row"><span>Capstone: Applying Project Management in the Real World</span><a class="btn-cert" target="_blank" href="https://www.coursera.org/account/accomplishments/verify/GMZZZ7VWK7BO">Show Certificate</a></div>
+            <div class="cert-row"><span>Google AI Essentials</span><a class="btn-cert" target="_blank" href="https://www.coursera.org/account/accomplishments/verify/E0G5VODHSKAV">Show Certificate</a></div>
+            <div class="cert-row"><span>Google Project Management (Specialization)</span><a class="btn-cert" target="_blank" href="https://www.coursera.org/account/accomplishments/specialization/VQZ8M43MOOZ8">Show Certificate</a></div>
+            <div class="cert-row"><span>Agile Project Management</span><a class="btn-cert" target="_blank" href="https://www.coursera.org/account/accomplishments/verify/JDXMDLM72JX6">Show Certificate</a></div>
+            <div class="cert-row"><span>Project Execution: Running the Project</span><a class="btn-cert" target="_blank" href="https://www.coursera.org/account/accomplishments/records/VX0JZTHIXPNC">Show Certificate</a></div>
+            <div class="cert-row"><span>Project Planning: Putting It All Together</span><a class="btn-cert" target="_blank" href="https://www.coursera.org/account/accomplishments/certificate/J83OK4XMWP7Y">Show Certificate</a></div>
+            <div class="cert-row"><span>Foundations of Project Management</span><a class="btn-cert" target="_blank" href="https://www.coursera.org/account/accomplishments/verify/YV3HWBMQCTAR">Show Certificate</a></div>
+            <div class="cert-row"><span>Project Initiation: Starting a Successful Project</span><a class="btn-cert" target="_blank" href="https://www.coursera.org/account/accomplishments/verify/HKGBM5B2I5M6">Show Certificate</a></div>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-head"><img src="assets/salesforce.svg" class="cert-logo" alt="Salesforce"><h3>Salesforce</h3></div>
+          <div class="cert-list">
+            <div class="cert-row"><span>Salesforce Certified Administrator</span></div>
+            <div class="cert-row"><span>Salesforce Certified Platform Developer I</span></div>
+            <div class="cert-row"><span>Salesforce Certified Associate</span></div>
+            <div class="cert-row"><span>Salesforce Certified Sales Cloud Consultant</span></div>
+            <div class="cert-row"><span>Salesforce Certified Platform App Builder</span></div>
+            <div class="cert-row"><span>Salesforce JavaScript Developer I</span></div>
+            <div class="cert-row"><span>Salesforce Certified Experience Cloud Consultant</span></div>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-head"><img src="assets/udemy.svg" class="cert-logo" alt="Professional & Technical"><h3>Professional & Technical</h3></div>
+          <div class="cert-list">
+            <div class="cert-row"><span>2021 Complete Python Bootcamp – Udemy</span></div>
+            <div class="cert-row"><span>Introduction to Python Programming – Udemy</span></div>
+            <div class="cert-row"><span>Programming Foundations with JavaScript, HTML & CSS – Coursera</span></div>
+            <div class="cert-row"><span>AI Master Class – Pantech.AI</span></div>
+            <div class="cert-row"><span>PHP & MySQL Training – Spoken Tutorial</span></div>
+            <div class="cert-row"><span>Basic Course in Python – SIES College</span></div>
+            <div class="cert-row"><span>Career edge – Knockdown the Lockdown – TCS iON</span></div>
+            <div class="cert-row"><span>Java Training – Spoken Tutorial</span></div>
+            <div class="cert-row"><span>C Training – Spoken Tutorial</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="achievements" class="section">
+    <div class="container">
+      <h2>Achievements & Extracurriculars</h2>
+      <div class="achieve">
+        <div class="ach-card reveal"><strong>🏅 Talent Door Award — Accenture</strong><p>Recognized for delivery excellence and cross‑functional impact.</p></div>
+        <div class="ach-card reveal"><strong>🎓 Student of the Year — SAKEC</strong><p>Awarded for academic performance and leadership.</p></div>
+        <div class="ach-card reveal"><strong>🌏 VP — International Student Association (CSULB)</strong><p>Led programs to promote community, culture, and leadership.</p></div>
+        <div class="ach-card reveal"><strong>🧩 Core Committee — CogniScience Club</strong><p>Organized workshops and hackathons on AI & Data Science.</p></div>
+        <div class="ach-card reveal"><strong>🎤 Performer — SAKEC Studio</strong><p>Vocalist for cultural events and studio recordings.</p></div>
+        <div class="ach-card reveal"><strong>🍳 Founder — Thelockdowncheff</strong><p>Built a food‑content brand to 5K+ followers.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="card reveal">
+        <h2>Let’s build scalable systems that deliver clarity.</h2>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;">
+          <a class="cta" href="mailto:roshnirabindrasahoo@gmail.com">Email</a>
+          <a class="cta" target="_blank" href="https://www.linkedin.com/in/roshnirabindrasahoo/">LinkedIn</a>
+          <a class="cta" href="resume.pdf">Download Portfolio</a>
+        </div>
+      </div>
+      <div class="footer">© <span id="year"></span> Roshni Rabindra Sahoo</div>
+    </div>
+    <button id="backTop" class="cta backtop">↑ Back to Top</button>
+  </section>
+
+  <script src="script.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
